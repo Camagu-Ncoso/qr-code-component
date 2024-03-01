@@ -1,0 +1,42 @@
+:root {--Grayish-blue :hsl(220, 15%, 55%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var( --Light-gray);
+  justify-content: center;
+  align-items: center;
+  display: grid;    
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: var(--White);
+  border-radius: 12px;
+  width: 70%;
+  height: 100%;
+  display: inline-block;
+  align-items: center;
+}
+
+.qr-code-image {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 12%;
+  margin-left: 12px;
+}
+
+
+h1, p {
+  font-size: 11px; 
+  text-align: center;
+  line-height : 12px;
+}
+
+p {
+  color: var(--Grayish-blue)
+}
+
