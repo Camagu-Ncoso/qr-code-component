@@ -20,7 +20,6 @@ body {
   display: flex;    
   flex-direction: column;
   font-size: 15px;
-  margin: 1.25rem;
   /* height: calc(100vh - 1px); */
   min-height: 100dvh; 
 }
